@@ -19,3 +19,5 @@ def output_array(message)
   while counter < message.length do
     puts message[counter]
     counter += 1
+    
+    
