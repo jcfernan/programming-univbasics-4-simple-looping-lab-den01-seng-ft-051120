@@ -22,7 +22,7 @@ def output_array(message)
   end
 end
 
-def output_array(message)
+def return_string_array(message)
   counter=0
   while counter < message.length do
     puts message[counter]
