@@ -27,7 +27,9 @@ def return_string_array(message)
   counter=0
   while counter < 
   message.length do
+    message[counter] = 
     message[counter].to_s
     counter += 1
   end
+  array
 end
